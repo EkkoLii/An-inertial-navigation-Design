@@ -292,6 +292,11 @@ struct LSM9DS1Sample {
 	 * Chip temperature
 	 **/
 	float temperature = 0;
+
+	/**
+	 *sample interval
+	 **/
+	float dt = 1/14.9;
 };
 
 /**

@@ -6,7 +6,7 @@ if(NOT CMAKE_BUILD_TYPE AND NOT CMAKE_CONFIGURATION_TYPES)
 	set(CMAKE_BUILD_TYPE "RelWithDebInfo")
 endif()
 
-project(LSM9DS1_RaspberryPi_Library VERSION 2.0.0 LANGUAGES CXX)
+project(INS_Project VERSION 1.0.0 LANGUAGES CXX)
 include(GNUInstallDirs)
 
 add_subdirectory(example)

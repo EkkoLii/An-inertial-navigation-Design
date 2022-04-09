@@ -1,0 +1,3 @@
+/home/pi/Desktop/INS_Project/example/CMakeFiles/rebuild_cache.dir
+/home/pi/Desktop/INS_Project/example/CMakeFiles/edit_cache.dir
+/home/pi/Desktop/INS_Project/example/CMakeFiles/LSM9DS1_demo.dir

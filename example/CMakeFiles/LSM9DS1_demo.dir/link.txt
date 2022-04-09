@@ -1,0 +1,1 @@
+/usr/bin/c++ -O2 -g -DNDEBUG -rdynamic CMakeFiles/LSM9DS1_demo.dir/LSM9DS1_demo.cpp.o -o LSM9DS1_demo  -Wl,-rpath,/home/pi/Desktop/INS_Project ../liblsm9ds1.so.2 -lrt -lpigpio 
