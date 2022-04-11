@@ -54,6 +54,11 @@ private:
     void timerEvent(QTimerEvent* event);
     void keyPressEvent(QKeyEvent* event);
 
+public:
+    Nav_navigation_info* get_nav_info_ref();
+
+    virtual void update_window();
+    void start_navigation();
 
 
 private:

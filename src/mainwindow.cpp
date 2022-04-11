@@ -238,4 +238,20 @@ void MainWindow::paintEvent(QPaintEvent *event)
     }
 }
 
+void MainWindow::update_window()
+{
+    nav_info.update_pos_info(this->get_cur_pos().x(),this->get_cur_pos().y(),scale);
+    this->repaint();
+}
 
+Nav_navigation_info* MainWindow::get_nav_info_ref()
+{
+    return &nav_info;
+}
+
+void MainWindow::start_navigation()
+{
+    nav_info.navigation_onmap(QPoint(600,600));
+    this->repaint();
+    return;
+}
