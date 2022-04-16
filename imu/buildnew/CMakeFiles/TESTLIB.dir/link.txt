@@ -1,1 +1,0 @@
-/usr/bin/c++ -fPIC -O2 -g -DNDEBUG -shared -Wl,-soname,libTESTLIB.so -o libTESTLIB.so CMakeFiles/TESTLIB.dir/src/NED.cpp.o   -L/home/pi/Documents/innertial/An-intertial-navigation-Design/imu/.  -Wl,-rpath,/home/pi/Documents/innertial/An-intertial-navigation-Design/imu/. -lrt 

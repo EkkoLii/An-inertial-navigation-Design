@@ -1,8 +1,0 @@
-/home/pi/Documents/innertial/An-intertial-navigation-Design/imu/build/CMakeFiles/install/strip.dir
-/home/pi/Documents/innertial/An-intertial-navigation-Design/imu/build/CMakeFiles/install.dir
-/home/pi/Documents/innertial/An-intertial-navigation-Design/imu/build/CMakeFiles/list_install_components.dir
-/home/pi/Documents/innertial/An-intertial-navigation-Design/imu/build/CMakeFiles/install/local.dir
-/home/pi/Documents/innertial/An-intertial-navigation-Design/imu/build/CMakeFiles/rebuild_cache.dir
-/home/pi/Documents/innertial/An-intertial-navigation-Design/imu/build/CMakeFiles/edit_cache.dir
-/home/pi/Documents/innertial/An-intertial-navigation-Design/imu/build/CMakeFiles/TESTLIB.dir
-/home/pi/Documents/innertial/An-intertial-navigation-Design/imu/build/CMakeFiles/lsm9ds1.dir
