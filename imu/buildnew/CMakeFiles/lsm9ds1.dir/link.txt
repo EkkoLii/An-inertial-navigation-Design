@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -O2 -g -DNDEBUG -shared -Wl,-soname,liblsm9ds1.so.2 -o liblsm9ds1.so.2 CMakeFiles/lsm9ds1.dir/src/LSM9DS1.cpp.o  -lpigpio 
