@@ -1,4 +1,4 @@
-# An-intertial-navigation-Design
+# An-inertial-navigation-Design
 ## Table of contents
 * [About](#about)
 * [Requirements](#requirements)
