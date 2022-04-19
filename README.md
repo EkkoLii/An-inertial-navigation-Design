@@ -40,20 +40,25 @@ The An-innertial-navigation-Design project is a two-dimensional navigation syste
 
 Run the following commands:
 ```
+sudo apt-get install libpigpio-dev
 sudo apt-get install qt5-default qtcreator
 ```
-## Instruction book
-
 ## Code structure
+We divide them into 4 parts: Display, Navigation(path_planning), IMU data processing(from IMU), trigger of data update.
+
+    1. Display relies on Qt. In a window, it shows the map, the current location, destination location, and the navigation path. The display update is driven by timer.
+    2. Navigation is used to describe the status of the maps, provide the navigation path, calculate the display data and update them for the display.
+    3. IMU libs provide the ECEF class with samples. Then ECEF will process the raw data and generate shifts.
+    4. The triggers provide the callback function for the ECEF to update the display data.
 
 ## License
 
 ## Authors
+* Chong Cui(2589587C)
 * Hanze Li(2690422L)
 * Lang Song(2486323S)
 * Zijian Li(2631668L)
-* Chong Cui(2589587C)
-* 
+
 ## References
 Dr.Bernd porr's repositories:https://github.com/berndporr/LSM9DS1_RaspberryPi_CPP_Library
 
