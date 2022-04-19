@@ -5,9 +5,9 @@
 * [Instruction book](#instruction-book)
 * [Code structure](#code-structure)
 * [License](#license)
-* [Social media](#social-media)
 * [Authors](#authors)
 * [References](#references)
+* [Social media](#social-media)
 
 ## About
 Inertial navigation is a navigation and positioning system based on the Inertial Measurement Unit to measure the acceleration of the carrier itself and then obtain its velocity and position by integration. It is used in a wide range of aircraft and aerospace applications.
@@ -28,19 +28,28 @@ Software
 * Cmake
 * Qmake
 
-Install<br/>
+**Install the QT creator:**
 
+Run the following commands:
+```
+sudo apt-get install qt5-default qtcreator
+```
 ## Instruction book
 
 ## Code structure
 
 ## License
 
-## Social media
-
 ## Authors
-Hanze Li(2690422L)
-Lang Song(2486323S)
-Zijian Li(2631668L)
-Chong Cui(2589587C)
+* Hanze Li(2690422L)
+* Lang Song(2486323S)
+* Zijian Li(2631668L)
+* Chong Cui(2589587C)
 ## References
+Dr.Bernd porr's repositories:https://github.com/berndporr/LSM9DS1_RaspberryPi_CPP_Library
+## Social media
+<br><a href="https://www.youtube.com/watch?v=k6E_uqkDLo0" target="blank"><img align="left" src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" height="40" width="40"/>
+</a>
+<a href="https://www.instagram.com/accounts/login/">
+<img align="left" alt="Mitul's LinkedIN" width= "40px" src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" />
+</a>
