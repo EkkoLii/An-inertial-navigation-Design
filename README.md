@@ -7,7 +7,9 @@
 * [License](#license)
 * [Authors](#authors)
 * [References](#references)
+* [Acknowledgements](#acknowledgements)
 * [Social media](#social-media)
+
 
 ## About
 Inertial navigation is a navigation and positioning system based on the Inertial Measurement Unit to measure the acceleration of the carrier itself and then obtain its velocity and position by integration. It is used in a wide range of aircraft and aerospace applications.
@@ -54,6 +56,9 @@ sudo apt-get install qt5-default qtcreator
 * 
 ## References
 Dr.Bernd porr's repositories:https://github.com/berndporr/LSM9DS1_RaspberryPi_CPP_Library
+
+## Acknowledgements
+
 
 ## Social media
 <br><a href="https://www.youtube.com/watch?v=k6E_uqkDLo0" target="blank"><img align="left" src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" height="40" width="40"/>
