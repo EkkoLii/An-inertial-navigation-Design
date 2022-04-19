@@ -4,11 +4,6 @@
 #include <QMainWindow>
 #include "navigation_info.h"
 #include "update_trigger.h"
-
-QT_BEGIN_NAMESPACE
-namespace Ui { class MainWindow; }
-QT_END_NAMESPACE
-
 class MainWindow : public QMainWindow, public update_trigger
 {
     Q_OBJECT
@@ -61,7 +56,5 @@ public:
     void start_navigation();
 
 
-private:
-    Ui::MainWindow *ui;
 };
 #endif // MAINWINDOW_H

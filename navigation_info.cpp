@@ -1,6 +1,7 @@
 #include "navigation_info.h"
 #include <list>
 
+
 Nav_navigation_info::Nav_navigation_info()
 {
     this->cell_size=20.0;
@@ -134,6 +135,24 @@ void Nav_navigation_info::path_planning(int src_x, int src_y, int des_x, int des
         auto it=start_list.begin();
         for(int i=0;i<list_size;i++)
         {
+
+
+            //bottom
+            if(index_exist(it->x,it->y+1))
+            {
+                int index=tran2d_to_1d(it->x,it->y+1);
+                if(!dis_info.at(index).explored)
+                {
+                    start_list.emplace_back(index_2d(it->x,it->y+1));
+                    dis_info.at(index).prev_nearest=index_2d(it->x,it->y);
+                    dis_info.at(index).explored=true;
+                    if(des_x==it->x && des_y==it->y+1)
+                    {
+                        endloop=true;
+                        break;
+                    }
+                }
+            }
             //right
             if(index_exist(it->x+1,it->y))
             {
@@ -151,16 +170,17 @@ void Nav_navigation_info::path_planning(int src_x, int src_y, int des_x, int des
                 }
 
             }
-            //bottom
-            if(index_exist(it->x,it->y+1))
+
+            //top
+            if(index_exist(it->x,it->y-1))
             {
-                int index=tran2d_to_1d(it->x,it->y+1);
+                int index=tran2d_to_1d(it->x,it->y-1);
                 if(!dis_info.at(index).explored)
                 {
-                    start_list.emplace_back(index_2d(it->x,it->y+1));
+                    start_list.emplace_back(index_2d(it->x,it->y-1));
                     dis_info.at(index).prev_nearest=index_2d(it->x,it->y);
                     dis_info.at(index).explored=true;
-                    if(des_x==it->x && des_y==it->y+1)
+                    if(des_x==it->x && des_y==it->y-1)
                     {
                         endloop=true;
                         break;
@@ -177,22 +197,6 @@ void Nav_navigation_info::path_planning(int src_x, int src_y, int des_x, int des
                     dis_info.at(index).prev_nearest=index_2d(it->x,it->y);
                     dis_info.at(index).explored=true;
                     if(des_x==it->x-1 && des_y==it->y)
-                    {
-                        endloop=true;
-                        break;
-                    }
-                }
-            }
-            //top
-            if(index_exist(it->x,it->y-1))
-            {
-                int index=tran2d_to_1d(it->x,it->y-1);
-                if(!dis_info.at(index).explored)
-                {
-                    start_list.emplace_back(index_2d(it->x,it->y-1));
-                    dis_info.at(index).prev_nearest=index_2d(it->x,it->y);
-                    dis_info.at(index).explored=true;
-                    if(des_x==it->x && des_y==it->y-1)
                     {
                         endloop=true;
                         break;

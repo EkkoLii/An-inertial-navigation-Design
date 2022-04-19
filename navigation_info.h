@@ -4,7 +4,6 @@
 #include <QSize>
 #include <vector>
 
-//Map is divided into many equal cells
 struct cell
 {
     int cell_type;
@@ -32,7 +31,6 @@ struct index_2d
     }
 };
 
-//In path_planning, they represent the status of the cells on the map.
 struct cell_status
 {
     bool explored;

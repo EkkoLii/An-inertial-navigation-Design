@@ -1,5 +1,4 @@
 #include "mainwindow.h"
-#include "ui_mainwindow.h"
 #include <QPainter>
 #include <QMouseEvent>
 #include <iostream>
@@ -7,20 +6,15 @@
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
-    , ui(new Ui::MainWindow)
 {
-    ui->setupUi(this);
-    this->grabKeyboard();
 }
 
 MainWindow::~MainWindow()
 {
-    delete ui;
 }
-
 int MainWindow::InitMainWindow()
 {
-    map_image.load(":/rc/maps/map.png");
+    map_image.load("/home/pi/Documents/inertial_nav/images/map.png");
     //should be revised to the initial location
     scale=3;
     zoom_of_map=1;

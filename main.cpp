@@ -1,7 +1,9 @@
 #include "mainwindow.h"
 
 #include <QApplication>
-#include <unistd.h>
+#include "LSM9DS1_Types.h"
+#include "LSM9DS1.h"
+#include "ECEF.h"
 
 int main(int argc, char *argv[])
 {
@@ -9,12 +11,5 @@ int main(int argc, char *argv[])
     MainWindow w;
     w.InitMainWindow();
     w.showMaximized();
-    /*
-    for(int i=0;i<15;i++)
-    {
-        w.set_cur_pos(w.get_cur_pos().x()+i*50,w.get_cur_pos().y()+i*40);
-        w.update_window();
-    }
-    */
     return a.exec();
 }
