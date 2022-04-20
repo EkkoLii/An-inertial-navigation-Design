@@ -9,17 +9,17 @@ CONFIG += c++11
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    ECEF.cpp \
-    main.cpp \
-    mainwindow.cpp \
-    navigation_info.cpp \
-    update_trigger.cpp
+    ./src/ECEF.cpp \
+    ./src/main.cpp \
+    ./src/mainwindow.cpp \
+    ./src/navigation_info.cpp \
+    ./src/update_trigger.cpp
 
 HEADERS += \
-    ECEF.h \
-    mainwindow.h \
-    navigation_info.h \
-    update_trigger.h
+    ./src/ECEF.h \
+    ./src/mainwindow.h \
+    ./src/navigation_info.h \
+    ./src/update_trigger.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
