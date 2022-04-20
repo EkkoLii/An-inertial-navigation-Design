@@ -2,7 +2,7 @@
 ## Table of contents
 * [About](#about)
 * [Requirements](#requirements)
-* [Instruction book](#instruction-book)
+* [How to use](#how-to-use)
 * [Code structure](#code-structure)
 * [License](#license)
 * [Authors](#authors)
@@ -23,6 +23,9 @@ The An-innertial-navigation-Design project is a two-dimensional navigation syste
 * IMU：LSM9DS1
 * Monitors
 
+## How to use
+
+
 **Circuit connections:**
 * Connect the 3.3V power (pin 1) and GND (pin 9) to the LSM9DS1.
 * Connect the I2C SDA (pin 3) & I2C SCL (pin 5) to the LSM9DS1.
@@ -30,7 +33,6 @@ The An-innertial-navigation-Design project is a two-dimensional navigation syste
 
 **Software:**
 * X64 Ubuntu
-* OpenCV
 * qt creator
 * Visual Studio
 * Cmake
@@ -63,10 +65,10 @@ We divide them into 4 parts: Display, Navigation(path_planning), IMU data proces
 Dr.Bernd porr's repositories:https://github.com/berndporr/LSM9DS1_RaspberryPi_CPP_Library
 
 ## Acknowledgements
-
+We would like to place on record our thanks to both professors Bernd Porr and Nicholas Bailey for their help and support to our project.
 
 ## Social media
-<br><a href="https://www.youtube.com/watch?v=k6E_uqkDLo0" target="blank"><img align="left" src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" height="40" width="40"/>
+<br><a href="https://www.youtube.com/watch?v=mZqUAVim7v8" target="blank"><img align="left" src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" height="40" width="40"/>
 </a>
 <a href="https://www.instagram.com/accounts/login/">
 <img align="left" alt="Mitul's LinkedIN" width= "40px" src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" />
