@@ -29,9 +29,6 @@ The An-innertial-navigation-Design project is a two-dimensional navigation syste
 * IMU：LSM9DS1
 * Monitors
 
-## How to use
-
-
 **Circuit connections:**
 * Connect the 3.3V power (pin 1) and GND (pin 9) to the LSM9DS1.
 * Connect the I2C SDA (pin 3) & I2C SCL (pin 5) to the LSM9DS1.
@@ -55,6 +52,9 @@ Run the following commands:
 sudo apt-get install libpigpio-dev
 sudo apt-get install qt5-default qtcreator
 ```
+
+## How to use
+
 ## Code structure
 We divide them into 4 parts: Display, Navigation(path_planning), IMU data processing(from IMU), trigger of data update.
 
