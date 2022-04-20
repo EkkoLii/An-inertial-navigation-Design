@@ -1,0 +1,27 @@
+This document introduces how the outputs of inertial motion unit (IMU) are used to compute user’s motion trajectory. As we know, the earth centred earth fixed frame (ECEF) is usually used to describe people’s position and velocity in Cartesian coordinate. However, the output of IMU based on body axis, which is difficult for people to share the location information to others. Our work in this part is to transform the output of IMU, which is angular rate and specific force, into position and velocity which related to a initial position so that people locate their position and velocity related to the initial position.
+
+ECEF.h :
+ECEF class: This class 9 funtions.
+ECEF(double Lb, double Longi, double h) – this function transform the initial position from curvilinear coordinate (latitude, longitude, altitude) to Cartesian coordinate (x,y,z). besides that, it also initiates the direct cosine matrix (DCM) from body axis to ECEF frame and create filter instance for processing upcoming data.
+
+Virtual Void hasSample(LSM9DS1Sample sample) – it is an abstract function inherited from LSM9DS1CallBack class, and is implemented in this class to grab data from IMU.
+
+Void DCMUpdate() - this function is responsible for updating DCM according the angular rate from gyroscope and acceleration velocity according specific force from accelerometer in IMU.
+
+Void StateUpdate() - this function updates the velocity and position of user by trapezoidal integration with acceleration velocity from function DCMUpdate().
+
+Void PositionReady() - this function sends position information to abstract interface function GetPosition() in class ECEFcallback.
+
+Double RN(double Lb), double RE(double Lb) – this two function calculates meridian radius and transverse  radius of earth.
+
+Void setCallback(ECEFcallback *cb) – this function transfer the address of ECEFcallback instance, so that data could be push to abstract interface ECEFcallback::GetPosition(Eigen::Vector3d Postion).
+
+ECEFcallback class: this class provide an abstract interface to developers. By inheriting and implementing abstract function – ECEFcallback::GetPosition(Eigen::Vector3d Position), ECEF data could be obtained.
+
+
+
+
+
+
+
+
