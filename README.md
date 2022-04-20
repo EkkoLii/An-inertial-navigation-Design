@@ -84,6 +84,6 @@ We would like to place on record our thanks to both professors Bernd Porr and Ni
 ## Social media
 <br><a href="https://www.youtube.com/watch?v=mZqUAVim7v8" target="blank"><img align="left" src="https://upload.wikimedia.org/wikipedia/commons/0/09/YouTube_full-color_icon_%282017%29.svg" height="40" width="40"/>
 </a>
-<a href="https://www.instagram.com/accounts/login/">
+<a href="https://www.instagram.com/p/CckQseqKuD4/">
 <img align="left" alt="Mitul's LinkedIN" width= "40px" src="https://upload.wikimedia.org/wikipedia/commons/e/e7/Instagram_logo_2016.svg" />
 </a>
