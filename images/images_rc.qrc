@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/rc/maps">
+        <file>map.png</file>
+        <file>baer.ico</file>
+    </qresource>
+</RCC>
