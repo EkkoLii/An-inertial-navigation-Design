@@ -50,11 +50,11 @@ sudo apt-get install qt5-default qtcreator
 ## License
 
 ## Authors
+* Chong Cui(2589587C)
 * Hanze Li(2690422L)
 * Lang Song(2486323S)
 * Zijian Li(2631668L)
-* Chong Cui(2589587C)
-* 
+
 ## References
 Dr.Bernd porr's repositories:https://github.com/berndporr/LSM9DS1_RaspberryPi_CPP_Library
 
