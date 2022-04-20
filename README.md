@@ -53,8 +53,8 @@ sudo apt-get install libpigpio-dev
 sudo apt-get install qt5-default qtcreator
 ```
 
-## How to use
-Download the installation package and run it in qt creator.
+## How to test
+
 
 ## Code structure
 We divide them into 4 parts: Display, Navigation(path_planning), IMU data processing(from IMU), trigger of data update.
