@@ -30,3 +30,6 @@ unix:!macx: LIBS += -L$$PWD/lib/ -llsm9ds1
 
 INCLUDEPATH += $$PWD/inc
 DEPENDPATH += $$PWD/inc
+
+RESOURCES += \
+    images/img.qrc

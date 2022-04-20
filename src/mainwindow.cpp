@@ -4,6 +4,7 @@
 #include <iostream>
 #include <qtimer.h>
 
+
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
 {
@@ -14,7 +15,7 @@ MainWindow::~MainWindow()
 }
 int MainWindow::InitMainWindow()
 {
-    map_image.load("/home/pi/Documents/inertial_nav/images/map.png");
+    map_image.load(":/src/map.png");
     //should be revised to the initial location
     scale=3;
     zoom_of_map=1;
@@ -31,6 +32,8 @@ int MainWindow::InitMainWindow()
 
     timer_id=startTimer(50);
     left_button_down=false;
+
+
     return 1;
 }
 

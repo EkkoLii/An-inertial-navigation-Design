@@ -6,6 +6,7 @@
 #include "Eigen/Dense"
 #include "update_trigger.h"
 
+
 /**
  * Callback interface where the callback needs to be
  * implemented by the host application.
