@@ -8,7 +8,7 @@
 ## Table of contents
 * [About](#about)
 * [Requirements](#requirements)
-* [How to use](#how-to-use)
+* [How to test](#how-to-test)
 * [Code structure](#code-structure)
 * [License](#license)
 * [Authors](#authors)
@@ -69,8 +69,8 @@ We divide them into 4 parts: Display, Navigation(path_planning), IMU data proces
 </p>
 
 ## License
-See [`LICENSE`](https://github.com/EkkoLii/An-inertial-navigation-Design/blob/master/LICENSE) for more information.
-Bernd porr's repositories's [`LICENSE`](https://github.com/berndporr/LSM9DS1_RaspberryPi_CPP_Library/blob/master/LICENSE)
+* See [`LICENSE`](https://github.com/EkkoLii/An-inertial-navigation-Design/blob/master/LICENSE) for more information.
+* Bernd porr's repositories's [`LICENSE`](https://github.com/berndporr/LSM9DS1_RaspberryPi_CPP_Library/blob/master/LICENSE)
 ## Authors
 * Chong Cui(2589587C)
 * Hanze Li(2690422L)
