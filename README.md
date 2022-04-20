@@ -44,7 +44,8 @@ sudo apt-get install libpigpio-dev
 sudo apt-get install qt5-default qtcreator
 ```
 ## Code structure
-We divide them into 4 parts: Display, Navigation(path_planning), IMU data processing(from IMU), trigger of data update;
+We divide them into 4 parts: Display, Navigation(path_planning), IMU data processing(from IMU), trigger of data update.
+
     1. Display relies on Qt. In a window, it shows the map, the current location, destination location, and the navigation path. The display update is driven by timer.
     2. Navigation is used to describe the status of the maps, provide the navigation path, calculate the display data and update them for the display.
     3. IMU libs provide the ECEF class with samples. Then ECEF will process the raw data and generate shifts.
