@@ -40,7 +40,7 @@ The An-innertial-navigation-Design project is a two-dimensional navigation syste
 
 Run the following commands:
 ```
-sudo apt-get install libgpio-dev
+sudo apt-get install libpigpio-dev
 sudo apt-get install qt5-default qtcreator
 ```
 ## Instruction book
