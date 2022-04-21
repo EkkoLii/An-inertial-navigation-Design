@@ -8,7 +8,6 @@
 ## Table of contents
 * [About](#about)
 * [Requirements](#requirements)
-* [How to test](#how-to-test)
 * [Code structure](#code-structure)
 * [License](#license)
 * [Authors](#authors)
@@ -52,9 +51,6 @@ Run the following commands:
 sudo apt-get install libpigpio-dev
 sudo apt-get install qt5-default qtcreator
 ```
-
-## How to test
-
 
 ## Code structure
 We divide them into 4 parts: Display, Navigation(path_planning), IMU data processing(from IMU), trigger of data update.
